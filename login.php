@@ -5,9 +5,13 @@ include("./config/database.php");
 if(isset($_POST["submit"])){
     extract($_POST); 
     if(empty($email)){
-        echo '<p class="alert alert-danger">Please Enter Password & email</p>';
+        echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Please Enter email!</strong> 
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
     }elseif(empty($password)){
-        echo '<p class="alert alert-danger">Please Enter Password & email</p>';
+        echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Please Enter password!</strong> 
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
 
     }else{
         // check data in database
