@@ -1,0 +1,22 @@
+
+.center{
+    margin:0 auto;
+    width: 300px;
+    color: rgb(65, 77, 127);
+}
+
+.centertext{
+    text-align: center;
+
+}
+
+#box{
+  width: 700px;
+  height: 85vh;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 10px;
+}
+body{
+  background-color: #121211;
+}
