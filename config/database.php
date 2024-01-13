@@ -1,5 +1,6 @@
 <?php
 //database connection 
+// include("user.sql");
 
 $servername="localhost";
 $username="root";
